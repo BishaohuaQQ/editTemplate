@@ -1,0 +1,25 @@
+@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_IAD_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  </head>
+  <script>
+  	var iadInfDomain = '@(System.Configuration.ConfigurationManager.AppSettings["IadInfPath"])';
+	if(iadInfDomain.indexOf("http")>-1){
+
+	}else{
+//		iadInfDomain = 'http://test5.iadapi.mobjz.com/iad/entry'
+//		iadInfDomain = 'http://10.1.0.240:8081/iad/entry'
+	}
+  </script>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+</html>

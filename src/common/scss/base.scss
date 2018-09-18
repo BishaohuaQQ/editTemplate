@@ -1,0 +1,8 @@
+.clearfix{
+	&:after{
+		display: block; height: 0; clear: both; visibility: hidden; content: ".";
+	}
+}
+.red1{
+	color:#ED0336 !important;
+}
