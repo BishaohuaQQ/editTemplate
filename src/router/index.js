@@ -88,3 +88,6 @@ router.beforeEach((to, from, next) => {//beforeEach是router的钩子函数，�
   next()//执行进入路由，如果不写就不会进入目标页
 })
 export default router
+
+
+//      我修改了 这个文件进行测试一下
